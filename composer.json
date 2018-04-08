@@ -1,0 +1,16 @@
+{
+    "name": "jjclane/laravel-sql-lite-migrations",
+    "description": "A trait to translate Laravel migrations into SQL Lite safe migrations.",
+    "type": "laravel-package",
+    "require": {
+        "illuminate/database": "^5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordan Lane",
+            "email": "contact@jordanlane.me"
+        }
+    ],
+    "minimum-stability": "dev"
+}
