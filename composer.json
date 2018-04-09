@@ -1,6 +1,6 @@
 {
-    "name": "jjclane/laravel-sql-lite-migrations",
-    "description": "A trait to translate Laravel migrations into SQL Lite safe migrations.",
+    "name": "jjclane/laravel-sqlite-migrations",
+    "description": "A trait to translate Laravel migrations into SQLite safe migrations.",
     "type": "laravel-package",
     "require": {
         "illuminate/database": "^5.6"
