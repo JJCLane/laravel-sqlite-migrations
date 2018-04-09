@@ -1,6 +1,6 @@
 <?php
 
-namespace JJCLane\SqlLiteMigration;
+namespace JJCLane\SQLiteMigration;
 
 use Schema;
 use Illuminate\Database\Schema\Blueprint;
