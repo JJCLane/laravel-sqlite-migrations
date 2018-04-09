@@ -12,5 +12,10 @@
             "email": "contact@jordanlane.me"
         }
     ],
-    "minimum-stability": "dev"
+    "autoload": {
+        "psr-4": {
+            "JJCLane\\SQLiteMigration\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
 }

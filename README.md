@@ -4,6 +4,8 @@ This avoids the `Cannot add a NOT NULL column with default value NULL` issue tha
 an existing table in a migration by initially adding the column as nullable and then modifying the column in a separate migration.
 It also maps Laravel datatypes that aren't supported in SQLite to avoid [this](https://github.com/laravel/framework/issues/8840).
 
+## Installation
+`composer require-dev jjclane/laravel-sqlite-migrations --dev`
 
 ## How to use
 ````php
