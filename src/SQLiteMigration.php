@@ -52,6 +52,17 @@ trait TransformMigration
             if ($usingSqlLite && !$col->nullable) {
                 $obj['nullable'] = true;
                 $obj['type'] = $this->mapType($obj['type']);
+
+                if (!isset($obj['default'])) {
+                    switch ($obj['type']) {
+                        case 'string':
+                            $obj['default'] = '';
+                            break;
+                        default:
+                            $obj['default'] = null;
+                        break;
+                    }
+                }
                 $userInput[] = $obj;
 
                 $obj['nullable'] = false;
