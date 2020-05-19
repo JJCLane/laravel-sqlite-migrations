@@ -3,7 +3,7 @@
     "description": "A trait to translate Laravel migrations into SQLite safe migrations.",
     "type": "laravel-package",
     "require": {
-        "illuminate/database": "^5.1"
+        "illuminate/database": "^5.1||^6.0||^7.0"
     },
     "license": "MIT",
     "authors": [
